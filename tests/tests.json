@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Browse the collection and open product enquiry",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": ["home navigation", "shop catalogue", "WhatsApp product enquiry"],
+    "description": "Verifies the main shopping path from the homepage into the catalogue and product enquiry action.",
+    "steps": [
+      "Open the homepage",
+      "Open Shop from the navigation",
+      "Select a product enquiry link"
+    ],
+    "expected": "The Shop page displays the product catalogue and the enquiry link opens a WhatsApp conversation for the selected item."
+  },
+  {
+    "name": "Use the baby essentials page on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "responsive mobile layout",
+      "baby catalogue",
+      "mobile navigation"
+    ],
+    "description": "Verifies the baby category remains usable on a small viewport.",
+    "steps": [
+      "Open the Baby 0–5 page",
+      "Scroll through the baby product cards",
+      "Tap an Enquire link"
+    ],
+    "expected": "The baby page is readable on mobile, product cards are visible, and the enquiry action is available."
+  },
+  {
+    "name": "Contact the store",
+    "viewport": "desktop",
+    "covers": [
+      "contact page",
+      "phone links",
+      "WhatsApp contact",
+      "TikTok link"
+    ],
+    "description": "Verifies the contact page exposes the store address and communication channels.",
+    "steps": [
+      "Open Contact us",
+      "Review the store address and phone numbers",
+      "Select the WhatsApp or TikTok link"
+    ],
+    "expected": "The contact page shows the Port Harcourt address, both phone numbers, a WhatsApp action, and the supplied TikTok link."
+  },
+  {
+    "name": "Browse school kits and travel accessories",
+    "viewport": "desktop",
+    "covers": [
+      "school kits page",
+      "school and travel products",
+      "school enquiry"
+    ],
+    "description": "Verifies the school and travel section provides useful product imagery and an enquiry action.",
+    "steps": [
+      "Open School Kits",
+      "Review the school and travel section",
+      "Select Ask about school kits"
+    ],
+    "expected": "The page shows school/travel imagery and the enquiry action opens WhatsApp."
+  }
+]
