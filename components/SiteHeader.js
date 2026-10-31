@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function SiteHeader(){return <header className="site-header"><div className="nav-wrap"><Link href="/" className="brand"><span className="logo-mark">♥</span><span>Lilys Kiddies<small>Collection</small></span></Link><nav className="nav-links"><Link href="/">Home</Link><Link href="/shop/">Shop</Link><Link href="/baby/">Baby 0–5</Link><Link href="/school/">School Kits</Link><Link href="/about/">About</Link><Link href="/contact/" className="nav-cta">Contact</Link></nav></div></header>}
